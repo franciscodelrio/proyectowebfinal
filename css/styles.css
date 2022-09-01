@@ -52,7 +52,8 @@ div.containerGal {
 div.containerCont {
   display: grid;
   width: 100%;
-  grid-template-areas: "header" "main" "footer"; }
+  grid-template-areas: "header" "main" "footer";
+  min-height: 100vh; }
 
 header.header {
   grid-area: header;
@@ -190,25 +191,25 @@ main .card .btn.primario:hover {
   flex-wrap: wrap; }
 
 .primerIntegrante {
-  width: 31rem;
+  width: 28rem;
   margin-top: 5rem;
   margin-left: 2rem;
   margin-right: 2rem; }
 
 .segundoIntegrante {
-  width: 31rem;
+  width: 28rem;
   margin-top: 5rem;
   margin-left: 2rem;
   margin-right: 2rem; }
 
 .tercerIntegrante {
-  width: 31rem;
+  width: 28rem;
   margin-top: 5rem;
   margin-left: 2rem;
   margin-right: 2rem; }
 
 .cuartoIntegrante {
-  width: 31rem;
+  width: 28rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
   margin-left: 2rem;
@@ -227,7 +228,7 @@ main .card .btn.primario:hover {
   padding-top: 1rem; }
 
 .imgPerfil {
-  width: 31rem; }
+  width: 28rem; }
 
 .infoPerfil {
   padding-top: 2rem;
@@ -254,7 +255,7 @@ main .card .btn.primario:hover {
   color: #ffffff;
   padding: 2rem;
   border-radius: 0.5rem;
-  width: fit-content;
+  width: 28rem;
   margin-top: 2rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -267,11 +268,12 @@ main .cardDiscos h3 {
   display: block;
   padding: 1rem 2rem;
   margin-bottom: 1rem;
-  width: 30rem;
+  width: 24rem;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
   text-align: center;
+  align-content: center;
   color: #ffffff;
   border-radius: 0.5rem;
   transition: .3s ease all; }
@@ -282,14 +284,9 @@ main .cardDiscos h3 {
 main .cardDiscos h3:hover {
   background: #423F3E; }
 
-.cardDiscos img {
-  width: 20rem;
-  margin-bottom: 1rem;
-  border-radius: 10rem; }
-
 .cardDiscos p {
   text-align: center;
-  width: 30rem;
+  width: fit-content;
   margin-bottom: 0.5rem;
   line-height: 2rem; }
 
