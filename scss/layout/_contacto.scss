@@ -1,0 +1,56 @@
+main.mainContacto {
+
+    section {
+
+        form.formulario {
+            background-color: $--secundario;
+            width: 80%;
+            margin: 4rem auto 0;
+            padding: 2rem;
+            border-radius: 1rem;
+            margin-bottom: 5rem;
+
+            fieldset {
+                border: none;
+                color: $--blanco;
+
+                legend {
+                    text-align: center;
+                    font-size: 1.8rem;
+                    text-transform: uppercase;
+                    font-weight: 700;
+                    margin-bottom: 2rem;
+                    color: $--blanco;
+                }
+
+                div.campo {
+                    margin-bottom: 1rem;
+
+                    label {
+                        color: $--blanco;
+                        font-weight: bold;
+                        margin-bottom: 0.5rem;
+                        display: block;
+                    }
+
+                    input.input-text {
+                        width: 100%;
+                        border: none;
+                        padding: 1.5rem;
+                        border-radius: 0.5rem;
+                    }
+
+                    textarea {
+                        height: 20rem;
+                        width: 100%;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

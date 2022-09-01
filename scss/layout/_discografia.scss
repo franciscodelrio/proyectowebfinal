@@ -1,0 +1,61 @@
+.contDiscos {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.cardDiscos {
+	background-color: $--primario;
+	color: $--blanco;
+	padding: 2rem;
+	border-radius: 0.5rem;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    transition: transform .2s;
+}
+
+.cardDiscos:hover {
+    transform: scale(1.1);
+}
+
+
+main .cardDiscos h3 {
+	display: block;
+	padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    width: 30rem;
+	text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+	color: $--blanco;
+	border-radius: 0.5rem;
+    transition: .3s ease all;
+}
+
+main .cardDiscos h3 { 
+	background: $--destacado;
+}
+
+main .cardDiscos h3:hover {
+	background: $--secundario;
+}
+
+
+.cardDiscos img {
+	width: 20rem;
+	margin-bottom: 1rem;
+    border-radius: 10rem;
+}
+
+.cardDiscos p {
+    text-align: center;
+    width: 30rem;
+	margin-bottom: 0.5rem;
+	line-height: 2rem;
+}

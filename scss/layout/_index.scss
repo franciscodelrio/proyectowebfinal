@@ -1,0 +1,123 @@
+
+/* * ----- ----- ----- VIDEO INTRO INDEX ----- ----- ----- */
+
+.video {
+    grid-area: video;
+    margin-top: 3rem;
+}
+
+.videoRes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoRes iframe {
+    width: 320px;
+    height: 180px;
+}
+
+.imgVideo {
+    grid-area: imgVideo;
+    margin-top: 3rem;
+}
+
+.imgVideoRes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include updown (2rem, 2rem);
+}
+
+.imgVideoRes img {
+    width: 30rem;
+}
+
+.infoVideo {
+    grid-area: infoVideo;
+    margin-bottom: 3rem;
+}
+
+.infoVideoRes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: $--blanco;
+}
+
+.infoVideoRes h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.infoVideoRes p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+/* * ----- ----- ----- MAIN CARDS INDEX ----- ----- ----- */
+
+.main {
+    grid-area: main;
+}
+
+.contSecciones {
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.card {
+	background-color: $--primario;
+	color: $--blanco;
+	padding: 2rem;
+	border-radius: 0.5rem;
+    width: fit-content;
+    margin: 2rem;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+main .card .btn {
+	display: block;
+	padding: 1rem 2rem;
+    margin-bottom: 1rem;
+	text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+	color: $--blanco;
+	border-radius: 0.5rem;
+    transition: .3s ease all;
+}
+
+main .card .btn.primario { 
+	background: $--destacado;
+}
+main .card .btn.primario:hover {
+	background: $--secundario;
+}
+
+.card img {
+	width: 20rem;
+	margin-bottom: 1rem;
+    border-radius: 10rem;
+}
+
+.card p {
+    width: 20rem;
+	margin-bottom: 0.5rem;
+	line-height: 2rem;
+    font-size: 1.5rem;
+}

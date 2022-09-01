@@ -1,0 +1,45 @@
+footer.footer {
+    grid-area: footer;
+    width: 100%;
+    height: auto;
+    background-color: $--primario;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: solid 0.2rem $--secundario;
+    padding-top: 1.5rem;
+    bottom: 0;
+
+    div.contSN {
+        display: inline-block;
+        color: $--blanco;
+        margin-left: 2rem;
+
+        div.redesSociales {
+            display: inline-block;
+
+            a {
+                color: $--blanco;
+                text-decoration: none;
+                font-weight: 700;
+                margin-right: 1.5rem;
+            }
+
+        }
+    }
+
+    div.contP {
+        display: inline-block;
+        color: $--blanco;
+        margin-left: auto;
+        margin-right: 2rem;
+    }
+
+}
+
+
+
+
+
+
+

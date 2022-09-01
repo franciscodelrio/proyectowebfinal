@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Barlow', sans-serif;
+    background-color: $--negro;
+    min-height: 100%;
+}
+
+.contG {
+    width: 100%;
+    height: auto;
+}
+
+/** PÁGINA INDEX */
+
+div.containerInd {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "video"
+    "imgVideo"
+    "infoVideo"
+    "main"
+    "footer"
+    ;
+}
+
+/** PÁGINA INTEGRANTES */
+
+div.containerInt {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    min-height: 100vh;
+}
+
+/** PÁGINA DISCOGRAFIA */
+
+div.containerDisc {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    min-height: 100vh;
+}
+
+/** PÁGINA GALERIA */
+
+div.containerGal {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+
+/** PÁGINA CONTACTO */
+
+div.containerCont {
+    display: grid;
+    width: 100%;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+}
+
